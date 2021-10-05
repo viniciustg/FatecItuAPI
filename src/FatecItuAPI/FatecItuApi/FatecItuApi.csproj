@@ -5,9 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\..\Desktop\src\DevIO.Business\FatecItuAPI.Business.csproj" />
-    <ProjectReference Include="..\..\..\..\..\..\Desktop\src\DevIO.Data\FatecItuAPI.Data.csproj" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
   </ItemGroup>
 
-
+  <ItemGroup>
+    <ProjectReference Include="..\..\FatecItuAPI.Business\FatecItuAPI.Business.csproj" />
+    <ProjectReference Include="..\..\FatecItuAPI.Data\FatecItuAPI.Data.csproj" />
+  </ItemGroup>
 </Project>
