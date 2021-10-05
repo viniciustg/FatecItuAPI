@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatecItuApi", "src\FatecItuAPI\FatecItuApi\FatecItuApi.csproj", "{63FC6DE2-D47A-46FD-A9D5-025DCD1C22E7}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatecItuAPI.Business", "src\FatecItuAPI.Business\FatecItuAPI.Business.csproj", "{59736369-12F7-495E-BC19-CB09D786919A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatecItuAPI.Data", "src\FatecItuAPI.Data\FatecItuAPI.Data.csproj", "{0C6EF342-D3F3-4540-8A30-9C874012C528}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FatecItuApi", "src\FatecItuAPI\FatecItuApi.csproj", "{9CD0A38E-65AB-412C-8546-6FC5F7C043ED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63FC6DE2-D47A-46FD-A9D5-025DCD1C22E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63FC6DE2-D47A-46FD-A9D5-025DCD1C22E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63FC6DE2-D47A-46FD-A9D5-025DCD1C22E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63FC6DE2-D47A-46FD-A9D5-025DCD1C22E7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{59736369-12F7-495E-BC19-CB09D786919A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{59736369-12F7-495E-BC19-CB09D786919A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59736369-12F7-495E-BC19-CB09D786919A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{0C6EF342-D3F3-4540-8A30-9C874012C528}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C6EF342-D3F3-4540-8A30-9C874012C528}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C6EF342-D3F3-4540-8A30-9C874012C528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CD0A38E-65AB-412C-8546-6FC5F7C043ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CD0A38E-65AB-412C-8546-6FC5F7C043ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CD0A38E-65AB-412C-8546-6FC5F7C043ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CD0A38E-65AB-412C-8546-6FC5F7C043ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

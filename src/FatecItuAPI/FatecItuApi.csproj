@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\FatecItuAPI.Business\FatecItuAPI.Business.csproj" />
-    <ProjectReference Include="..\..\FatecItuAPI.Data\FatecItuAPI.Data.csproj" />
+    <ProjectReference Include="..\FatecItuAPI.Business\FatecItuAPI.Business.csproj" />
+    <ProjectReference Include="..\FatecItuAPI.Data\FatecItuAPI.Data.csproj" />
   </ItemGroup>
 </Project>
