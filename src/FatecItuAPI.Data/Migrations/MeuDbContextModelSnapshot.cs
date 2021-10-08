@@ -19,7 +19,7 @@ namespace FatecItuApi.Data.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
+            modelBuilder.Entity("FatecItuAPI.Business.Models.Endereco", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -61,7 +61,7 @@ namespace FatecItuApi.Data.Migrations
                     b.ToTable("Enderecos");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Fornecedor", b =>
+            modelBuilder.Entity("FatecItuAPI.Business.Models.Fornecedor", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -83,7 +83,7 @@ namespace FatecItuApi.Data.Migrations
                     b.ToTable("Fornecedores");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
+            modelBuilder.Entity("FatecItuAPI.Business.Models.Produto", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd();
@@ -115,16 +115,16 @@ namespace FatecItuApi.Data.Migrations
                     b.ToTable("Produtos");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Endereco", b =>
+            modelBuilder.Entity("FatecItuAPI.Business.Models.Endereco", b =>
                 {
-                    b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
+                    b.HasOne("FatecItuAPI.Business.Models.Fornecedor", "Fornecedor")
                         .WithOne("Endereco")
-                        .HasForeignKey("DevIO.Business.Models.Endereco", "FornecedorId");
+                        .HasForeignKey("FatecItuAPI.Business.Models.Endereco", "FornecedorId");
                 });
 
-            modelBuilder.Entity("DevIO.Business.Models.Produto", b =>
+            modelBuilder.Entity("FatecItuAPI.Business.Models.Produto", b =>
                 {
-                    b.HasOne("DevIO.Business.Models.Fornecedor", "Fornecedor")
+                    b.HasOne("FatecItuAPI.Business.Models.Fornecedor", "Fornecedor")
                         .WithMany("Produtos")
                         .HasForeignKey("FornecedorId");
                 });
